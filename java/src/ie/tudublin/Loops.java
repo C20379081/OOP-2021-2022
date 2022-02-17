@@ -167,6 +167,24 @@ public class Loops extends PApplet {
                 }
             }
             break;
+            case 9:
+            {
+                background(0);
+                colorMode(RGB);
+                float border = width * 0.1f;
+                stroke(255);
+                for(int i = -5 ; i <= 5 ; i ++)
+                {
+                    float x = map(i, -5,5 , border, width - border);
+                    stroke(0,255,0);
+                    line(x,border,x,height-border);
+                    line(border,x,width-border,x);
+                    fill(255);
+                    text(i,x,border*0.5f);
+                    text(i,border*0.5f,x);
+                }
+            }
+            break;
         }
     }
 }
