@@ -27,18 +27,6 @@ public class Main
         processing.core.PApplet.runSketch( a, new Loops());
     }
 
-    public static void bugZap()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new BugZap());
-    }
-
-    public static void loops()
-	{
-		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Loops());
-    }
-
     public static void arrays()
 	{
 		String[] a = {"MAIN"};
@@ -70,14 +58,6 @@ public class Main
     }
     public static void main(String[] args)
     {
-<<<<<<< HEAD
-        BugZap();
-=======
-        arrays();
->>>>>>> d53e2a8317afe6b546d09b3afd70667e49058ef2
-
-        // Tara Misty
-        // Tara Tara
-        loops();
+       arrays();
     }
 }
